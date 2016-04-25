@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="ProductClassify" name="com.bjsasc.twc.brace.data.ProductClassify" display-name="ProductClassify" table="twc_productclassify_tab"  mapping-mode="3" storage-mode="compound" relation="false">
+  <property type="string" length="255" name="name" display-name="节点名称" sort-no="1"/>
+  <property type="string" length="255" name="creator" display-name="创建人" sort-no="2"/>
+  <property type="string" length="255" name="parentid" display-name="父节点" sort-no="3"/>
+  <property type="int" length="10" name="sequencenumber" display-name="排序号" sort-no="4"/>
+  <property type="date" name="createtime" display-name="创建日期" sort-no="5"/>
+  <property type="string" length="255" name="nodetype" display-name="节点类型" sort-no="6"/>
+  <property type="string" length="10" name="delstatus" display-name="删除、作废状态" sort-no="7"/>
+  <property type="string" length="255" name="rootinnerid" display-name="根节点内部标识" sort-no="8"/>
+</class>
+

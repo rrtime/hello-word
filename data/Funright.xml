@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="Funright" name="com.bjsasc.twc.brace.data.Funright" display-name="Funright" table="twc_funright_tab"  mapping-mode="3" storage-mode="compound" relation="false">
+  <property type="string" length="255" name="id" display-name="标识" sort-no="1"/>
+  <property type="string" length="255" name="name" display-name="名称" sort-no="2"/>
+  <property type="string" length="255" name="type" display-name="分类" sort-no="3"/>
+</class>
+

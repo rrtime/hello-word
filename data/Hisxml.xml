@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="Hisxml" name="com.bjsasc.twc.brace.data.Hisxml" display-name="Hisxml" table="twc_hisxml_tab" mapping-mode="3" storage-mode="compound" relation="false">
+  <property type="string" length="255" name="fileiid" display-name="文件服务器的实体标识" sort-no="1"/>
+  <property type="string" length="255" name="cellName" display-name="存储单元名称" sort-no="2"/>
+  <property type="date" name="createtime" display-name="创建日期" sort-no="3"/>
+</class>

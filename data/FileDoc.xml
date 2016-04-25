@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="FileDoc" name="com.bjsasc.twc.brace.data.FileDoc" display-name="FileDoc" table="twc_doc_tab" mapping-mode="3" storage-mode="compound" relation="false">
+  <property type="string" length="255" name="name" display-name="文件名称" sort-no="1"/>
+  <property type="string" length="255" name="code" display-name="文件编号" sort-no="2"/>
+  <property type="string" length="255" name="phase" display-name="阶段" sort-no="3"/>
+  <property type="string" length="255" name="system" display-name="专业" sort-no="4"/>
+  <property type="string" length="10" name="status" display-name="状态" sort-no="5"/>
+  <property type="string" length="10" name="seclevel" display-name="密级" sort-no="6"/>
+  <property type="string" length="255" name="doctype" display-name="文档类型名称" sort-no="7"/>
+  <property type="string" length="255" name="creator" display-name="创建人" sort-no="8"/>
+  <property type="string" length="255" name="createunit" display-name="创建单位" sort-no="9"/>
+  <property type="date" name="createtime" display-name="创建日期" sort-no="10"/>
+   <property type="date" name="controltime" display-name="受控日期" sort-no="11"/>
+  <property type="string" length="255" name="dociid" display-name="文档版本标识" sort-no="12"/>
+  <property type="string" length="10" name="version" display-name="版本" sort-no="13"/>
+  <property type="string" length="255" name="treeid" display-name="存储域标识" sort-no="14"/>
+  <property type="string" length="255" name="doctypeiid" display-name="文档模型id" sort-no="15"/>
+</class>

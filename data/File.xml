@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="File" name="com.bjsasc.twc.brace.data.File" display-name="File" table="twc_file_tab" mapping-mode="3" storage-mode="compound" relation="false">
+  <property type="string" length="255" name="name" display-name="名称" sort-no="1"/>
+  <property type="string" length="255" name="filesize" display-name="文件大小" sort-no="2"/>
+  <property type="string" length="255" name="fileextname" display-name="文件扩展名" sort-no="3"/>
+  <property type="string" length="255" name="fileiid" display-name="文件服务器的实体标识" sort-no="4"/>
+  <property type="string" length="255" name="cellName" display-name="存储单元名称" sort-no="5"/>
+</class>

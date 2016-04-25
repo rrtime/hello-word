@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="ClassifyToAny" name="com.bjsasc.twc.brace.data.ClassifyToAny" display-name="ClassifyToAny" table="twc_classifytoany_tab"  mapping-mode="3" storage-mode="compound" relation="false">
+  <property type="string" length="255" name="fkinnerid1" display-name="外键1" sort-no="1"/>
+  <property type="string" length="255" name="fkinnerid2" display-name="外键2" sort-no="2"/>
+  <property type="string" length="255" name="tablename" display-name="其它表名" sort-no="3"/>
+</class>
+

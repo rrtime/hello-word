@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="DocRigntRole" name="com.bjsasc.twc.brace.data.DocRigntRole" display-name="DocRigntRole" table="twc_doc_rignt_role_tab"  mapping-mode="3" storage-mode="compound" relation="false">
+  <property type="string" length="255" name="funrightid" display-name="功能权限标识" sort-no="1"/>
+  <property type="string" length="255" name="docid" display-name="文档标识" sort-no="2"/>
+  <property type="string" length="255" name="roleid" display-name="角色标识" sort-no="3"/>
+  <property type="string" length="255" name="creator" display-name="授权人" sort-no="4"/>
+  <property type="date" name="createtime" display-name="创建日期" sort-no="5"/>
+</class>
+
