@@ -3,7 +3,6 @@ package com.bjsasc.twc.brace.dao;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-
 import com.bjsasc.platform.objectmodel.business.persist.PTFactor;
 import com.bjsasc.platform.objectmodel.business.persist.PersistTemplate;
 import com.bjsasc.platform.webframework.bean.FilterParam;
